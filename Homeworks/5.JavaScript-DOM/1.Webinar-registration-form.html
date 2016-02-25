@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>webinar registration form</title>
+    <style>
+        #divToShow{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="/" method="post">
+        <label for="names">Име и Фамилия</label>
+        <input type="text" id="names">
+
+        <input type="checkbox" id="check">
+
+        <div id="divToShow">
+            <label for="firma" >firma</label>
+            <input type="text" id="firma" class="show" >
+
+            <label for="mol" >mol</label>
+            <input type="text" id="mol" class="show" >
+        </div>
+
+    </form>
+    <script src="1.webinar.js"></script>
+</body>
+</html>
